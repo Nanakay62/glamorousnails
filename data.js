@@ -31,7 +31,7 @@ const SALON_DEFAULTS = {
   salon_name: "Glamorous Nails",
   currency: "GH₵",
   contact: {
-    whatsapp_dispatch: "233240878736",
+    whatsapp_dispatch: "233240876736",
     backup_phone: "0502743916",
     instagram: "glamorousbeautyplus",
     facebook: "Arda Sodjina",
