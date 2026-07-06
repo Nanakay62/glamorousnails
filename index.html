@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Glamorous Nails — Haatso, Accra</title>
+<meta name="description" content="Book nails, lashes, brows, facials, makeup and piercing at Glamorous Nails, Haatso Supermarket Junction. Payment strictly in person.">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#FBFAF7">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="mica-field"></div>
+
+<nav class="nav">
+  <div class="nav-capsule">
+    <div class="brand"><span class="dot"></span>Glamorous Nails</div>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#studio">The Studio</a></li>
+      <li><a href="#visit">Visit</a></li>
+    </ul>
+    <button class="nav-cta" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">Book Now</button>
+  </div>
+</nav>
+
+<main>
+  <section class="hero wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Haatso Supermarket Junction · Accra</span>
+        <h1 class="h-display">A finish worth <em>looking twice</em> at.</h1>
+        <p class="p-lede">Nails, lashes, brows, facials and piercing built one appointment at a time. Choose your services below, pick a slot, and we'll confirm everything on WhatsApp. No cards, no checkout forms you pay us in person, the old-fashioned way.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">Start booking →</button>
+          <a class="btn btn-ghost" id="heroWhatsapp" href="#" target="_blank" rel="noopener">Message us on WhatsApp</a>
+        </div>
+      </div>
+      <div class="swatch-stage" aria-hidden="true">
+        <div class="swatch s1">
+          <div class="cap" style="background:linear-gradient(135deg,#8C2531,#B0525C)"></div>
+          <div class="lbl">LONG ACRYLIC</div>
+          <div class="prc">GH₵200+</div>
+        </div>
+        <div class="swatch s2">
+          <div class="cap" style="background:linear-gradient(135deg,#AD8A46,#D8C69C)"></div>
+          <div class="lbl">GEL POLISH</div>
+          <div class="prc">GH₵45</div>
+        </div>
+        <div class="swatch s3">
+          <div class="cap" style="background:linear-gradient(135deg,#3E3436,#6B5C5F)"></div>
+          <div class="lbl">MICROBLADING</div>
+          <div class="prc">GH₵500</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Menu</span>
+        <h2 class="h-display">Every service, priced up front.</h2>
+        <p class="p-lede">Tap to add. Your running total lives in the dock at the bottom of the screen — expand it whenever you're ready to pick a time.</p>
+      </div>
+      <div class="segmented" id="categoryTabs" role="tablist"></div>
+      <div class="service-grid" id="serviceGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="studio" style="padding-top:0;">
+    <div class="wrap">
+      <div class="strip">
+        <div>
+          <h4>In-person, always</h4>
+          <p>We don't take card details or deposits online. Your total is confirmed on WhatsApp and settled at the counter when you arrive.</p>
+        </div>
+        <div>
+          <h4>One chair, your pace</h4>
+          <p>Appointments are booked in named time slots so you're never waiting behind a queue of walk-ins.</p>
+        </div>
+        <div>
+          <h4>Built for touch-ups</h4>
+          <p>Refills, gel swaps and lash top-ups are priced separately, so you only ever pay for what's changed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="visit">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Find us</span>
+        <h2 class="h-display">Haatso Supermarket Junction.</h2>
+      </div>
+      <div class="loc-card">
+        <div>
+          <ul class="loc-list">
+            <li><b>Address</b> — Haatso Supermarket Junction, Accra</li>
+            <li><b>WhatsApp</b> — +233 24 087 8736</li>
+            <li><b>Call / Backup line</b> — +233 50 274 3916</li>
+            <li><b>Instagram</b> — @glamorousbeautyplus</li>
+            <li><b>Facebook</b> — Arda Sodjina</li>
+          </ul>
+          <div class="hero-actions" style="margin-top:22px;">
+            <a class="btn btn-primary" id="visitWhatsapp" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+            <a class="btn btn-ghost" id="visitCall" href="#">Call the salon</a>
+          </div>
+        </div>
+        <div class="pin-graphic">
+          <svg width="46" height="46" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 2C7.6 2 4 5.6 4 10c0 5.6 7 11.3 7.3 11.5a1 1 0 0 0 1.4 0C13 21.3 20 15.6 20 10c0-4.4-3.6-8-8-8z" fill="#8C2531"/>
+            <circle cx="12" cy="10" r="3.4" fill="#FBFAF7"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <div class="brand" style="font-size:16px;"><span class="dot"></span>Glamorous Nails</div>
+    <small>Haatso Supermarket Junction, Accra · Payment strictly in person</small>
+  </div>
+</footer>
+
+<!-- Vanity Dock: collapsed pill -->
+<div class="dock-wrap">
+  <div class="dock" id="dock" hidden>
+    <div class="dock-info">
+      <span class="count" id="dockCount">0 services</span>
+      <span class="total" id="dockTotal">GH₵0</span>
+    </div>
+    <button class="dock-cta" id="dockOpen">Review &amp; book</button>
+  </div>
+</div>
+
+<!-- Booking sheet -->
+<div class="sheet-scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Book your appointment">
+  <div class="sheet-handle"></div>
+  <div class="sheet-head">
+    <h3 class="h-display">Your appointment</h3>
+    <button class="sheet-close" id="sheetClose" aria-label="Close">✕</button>
+  </div>
+  <div class="sheet-body">
+    <div>
+      <span class="field-label">Selected services</span>
+      <div class="selected-list" id="selectedList"></div>
+    </div>
+
+    <div>
+      <span class="field-label">Date</span>
+      <input class="field-input" type="date" id="dateInput">
+      <div id="dateWarning" style="display:none;color:#8C2531;font-size:12.5px;margin-top:8px;">This date is closed — please pick another.</div>
+    </div>
+
+    <div>
+      <span class="field-label">Time</span>
+      <div class="chip-row" id="timeChips"></div>
+    </div>
+
+    <div>
+      <span class="field-label">Your name</span>
+      <input class="field-input" type="text" id="nameInput" placeholder="Full name">
+    </div>
+
+    <div>
+      <span class="field-label">Your number</span>
+      <input class="field-input" type="tel" id="phoneInput" placeholder="e.g. 024 000 0000">
+    </div>
+
+    <div>
+      <span class="field-label">Notes (optional)</span>
+      <input class="field-input" type="text" id="notesInput" placeholder="Nail shape, reference photo, allergies…">
+    </div>
+
+    <div class="pay-note"><span>💳</span><span><b>Payment is strictly in person.</b> We don't take cards or deposits online — settle up at the counter when you arrive.</span></div>
+  </div>
+  <div class="sheet-foot">
+    <div class="sheet-total">
+      <span class="lbl">Total</span>
+      <span class="amt" id="sheetTotal">GH₵0</span>
+    </div>
+    <button class="confirm-btn" id="confirmBtn" disabled>Confirm on WhatsApp →</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
